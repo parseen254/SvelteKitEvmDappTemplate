@@ -1,0 +1,147 @@
+{
+    "abi": [
+        {
+            "type": "function",
+            "name": "decrement",
+            "inputs": [],
+            "outputs": [],
+            "stateMutability": "nonpayable"
+        },
+        {
+            "type": "function",
+            "name": "increment",
+            "inputs": [],
+            "outputs": [],
+            "stateMutability": "nonpayable"
+        },
+        {
+            "type": "function",
+            "name": "number",
+            "inputs": [],
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "stateMutability": "view"
+        },
+        {
+            "type": "function",
+            "name": "setNumber",
+            "inputs": [
+                {
+                    "name": "newNumber",
+                    "type": "uint256",
+                    "internalType": "uint256"
+                }
+            ],
+            "outputs": [],
+            "stateMutability": "nonpayable"
+        }
+    ],
+    "bytecode": {
+        "object": "0x608060405234801561001057600080fd5b506101f4806100206000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c80632baeceb7146100515780633fb5c1cb1461005b5780638381f58a1461006e578063d09de08a14610089575b600080fd5b610059610091565b005b61005961006936600461015f565b600055565b61007760005481565b60405190815260200160405180910390f35b6100596100fd565b60008054116100e75760405162461bcd60e51b815260206004820152601f60248201527f44656372656d656e7420776f756c6420636175736520756e646572666c6f770060448201526064015b60405180910390fd5b6000805490806100f68361018e565b9190505550565b600019600054106101505760405162461bcd60e51b815260206004820152601e60248201527f496e6372656d656e7420776f756c64206361757365206f766572666c6f77000060448201526064016100de565b6000805490806100f6836101a5565b60006020828403121561017157600080fd5b5035919050565b634e487b7160e01b600052601160045260246000fd5b60008161019d5761019d610178565b506000190190565b6000600182016101b7576101b7610178565b506001019056fea2646970667358221220c556acbd48e9ef789021004ed81e9db4c68d8157c2173713918196ded89d66c664736f6c63430008140033",
+        "sourceMap": "65:394:23:-:0;;;;;;;;;;;;;;;;;;;",
+        "linkReferences": {}
+    },
+    "deployedBytecode": {
+        "object": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c80632baeceb7146100515780633fb5c1cb1461005b5780638381f58a1461006e578063d09de08a14610089575b600080fd5b610059610091565b005b61005961006936600461015f565b600055565b61007760005481565b60405190815260200160405180910390f35b6100596100fd565b60008054116100e75760405162461bcd60e51b815260206004820152601f60248201527f44656372656d656e7420776f756c6420636175736520756e646572666c6f770060448201526064015b60405180910390fd5b6000805490806100f68361018e565b9190505550565b600019600054106101505760405162461bcd60e51b815260206004820152601e60248201527f496e6372656d656e7420776f756c64206361757365206f766572666c6f77000060448201526064016100de565b6000805490806100f6836101a5565b60006020828403121561017157600080fd5b5035919050565b634e487b7160e01b600052601160045260246000fd5b60008161019d5761019d610178565b506000190190565b6000600182016101b7576101b7610178565b506001019056fea2646970667358221220c556acbd48e9ef789021004ed81e9db4c68d8157c2173713918196ded89d66c664736f6c63430008140033",
+        "sourceMap": "65:394:23:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;340:117;;;:::i;:::-;;116:80;;;;;;:::i;:::-;171:6;:18;116:80;88:21;;;;;;;;;345:25:25;;;333:2;318:18;88:21:23;;;;;;;202:132;;;:::i;340:117::-;395:1;386:6;;:10;378:54;;;;-1:-1:-1;;;378:54:23;;583:2:25;378:54:23;;;565:21:25;622:2;602:18;;;595:30;661:33;641:18;;;634:61;712:18;;378:54:23;;;;;;;;;442:6;:8;;;:6;:8;;;:::i;:::-;;;;;;340:117::o;202:132::-;-1:-1:-1;;248:6:23;;:26;240:69;;;;-1:-1:-1;;;240:69:23;;1216:2:25;240:69:23;;;1198:21:25;1255:2;1235:18;;;1228:30;1294:32;1274:18;;;1267:60;1344:18;;240:69:23;1014:354:25;240:69:23;319:6;:8;;;:6;:8;;;:::i;14:180:25:-;73:6;126:2;114:9;105:7;101:23;97:32;94:52;;;142:1;139;132:12;94:52;-1:-1:-1;165:23:25;;14:180;-1:-1:-1;14:180:25:o;741:127::-;802:10;797:3;793:20;790:1;783:31;833:4;830:1;823:15;857:4;854:1;847:15;873:136;912:3;940:5;930:39;;949:18;;:::i;:::-;-1:-1:-1;;;985:18:25;;873:136::o;1373:135::-;1412:3;1433:17;;;1430:43;;1453:18;;:::i;:::-;-1:-1:-1;1500:1:25;1489:13;;1373:135::o",
+        "linkReferences": {}
+    },
+    "methodIdentifiers": {
+        "decrement()": "2baeceb7",
+        "increment()": "d09de08a",
+        "number()": "8381f58a",
+        "setNumber(uint256)": "3fb5c1cb"
+    },
+    "rawMetadata": "{\"compiler\":{\"version\":\"0.8.20+commit.a1b79de6\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"decrement\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"increment\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"number\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"newNumber\",\"type\":\"uint256\"}],\"name\":\"setNumber\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"src/Counter.sol\":\"Counter\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[\":forge-std/=lib/forge-std/src/\"]},\"sources\":{\"src/Counter.sol\":{\"keccak256\":\"0x0b5e4b1aa5a63605539b7b99b1f73af1524355aba910cfc3eb947cb88f4c6656\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://9e114528922b3a7875453d957621e377234841795734e7c87f312325f3861364\",\"dweb:/ipfs/QmZ8EzaTmxuq1T33TGWRbSKNgA3HUvs8njz89tvCF1WJe8\"]}},\"version\":1}",
+    "metadata": {
+        "compiler": {
+            "version": "0.8.20+commit.a1b79de6"
+        },
+        "language": "Solidity",
+        "output": {
+            "abi": [
+                {
+                    "inputs": [],
+                    "stateMutability": "nonpayable",
+                    "type": "function",
+                    "name": "decrement"
+                },
+                {
+                    "inputs": [],
+                    "stateMutability": "nonpayable",
+                    "type": "function",
+                    "name": "increment"
+                },
+                {
+                    "inputs": [],
+                    "stateMutability": "view",
+                    "type": "function",
+                    "name": "number",
+                    "outputs": [
+                        {
+                            "internalType": "uint256",
+                            "name": "",
+                            "type": "uint256"
+                        }
+                    ]
+                },
+                {
+                    "inputs": [
+                        {
+                            "internalType": "uint256",
+                            "name": "newNumber",
+                            "type": "uint256"
+                        }
+                    ],
+                    "stateMutability": "nonpayable",
+                    "type": "function",
+                    "name": "setNumber"
+                }
+            ],
+            "devdoc": {
+                "kind": "dev",
+                "methods": {},
+                "version": 1
+            },
+            "userdoc": {
+                "kind": "user",
+                "methods": {},
+                "version": 1
+            }
+        },
+        "settings": {
+            "remappings": [
+                "forge-std/=lib/forge-std/src/"
+            ],
+            "optimizer": {
+                "enabled": true,
+                "runs": 200
+            },
+            "metadata": {
+                "bytecodeHash": "ipfs"
+            },
+            "compilationTarget": {
+                "src/Counter.sol": "Counter"
+            },
+            "evmVersion": "paris",
+            "libraries": {}
+        },
+        "sources": {
+            "src/Counter.sol": {
+                "keccak256": "0x0b5e4b1aa5a63605539b7b99b1f73af1524355aba910cfc3eb947cb88f4c6656",
+                "urls": [
+                    "bzz-raw://9e114528922b3a7875453d957621e377234841795734e7c87f312325f3861364",
+                    "dweb:/ipfs/QmZ8EzaTmxuq1T33TGWRbSKNgA3HUvs8njz89tvCF1WJe8"
+                ],
+                "license": "UNLICENSED"
+            }
+        },
+        "version": 1
+    },
+    "id": 23
+}
