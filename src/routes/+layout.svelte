@@ -18,7 +18,7 @@
 					projectId: PUBLIC_WALLETCONNECT_ID
 				})
 			],
-			chains: data.chainArray
+			chains: data.chains
 		});
 		await erckit.init();
 	});

@@ -1,9 +1,11 @@
 import type { LayoutLoad } from './$types';
-import * as chains from 'viem/chains';
+
+import * as chainsObject from '@wagmi/core/chains';
+
 
 
 export const load = (async () => {
     return {
-        chainArray: Object.values(chains)
+        chains: Object.values(chainsObject)
     };
 }) satisfies LayoutLoad;
